@@ -1,0 +1,27 @@
+{
+  "name": "projectinitiative",
+  "version": "1.0.0",
+  "description": "initiativeproposer",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rochmirabeau/projectinitiative.git"
+  },
+  "author": "Jason A. Leo, Christopher Rolls, Cuneyt Akcay, Roch Mirabeau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rochmirabeau/projectinitiative/issues"
+  },
+  "homepage": "https://github.com/rochmirabeau/projectinitiative#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mysql2": "^1.5.2",
+    "sequelize": "^4.33.4"
+  },
+  "devDependencies": {
+    "tape": "^4.9.0"
+  }
+}
