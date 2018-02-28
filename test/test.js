@@ -4,7 +4,7 @@ test( 'My first test', function( assert ) {
     assert.end() ;
 } ) ;
 test( 'My second test', function( assert ) {
-    assert.plan(  ) ; 
+    assert.plan( ) ; 
     // Specifies that we will be executing exactly two tests
     // tests go here
     assert.end();
