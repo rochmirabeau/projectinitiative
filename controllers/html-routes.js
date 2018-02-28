@@ -1,11 +1,12 @@
 // Require dependencies
-var path = require("path");
-
+const path = require("path");
+const express = require('express')
+const router = express.Router();
 // Set up html routes
-module.exports = function(app) {
-  app.get('/api/clickable', (req, res) => {
-    res.sendFile(path.resolve(__dirname, '../client-old/clickable.html'))
-  });
+router.get('/clickable', (req, res) => {
+  res.sendFile(path.resolve(__dirname, '../client-old/clickable.html'))
+});
+module.exports = router;
   // app.get("/", function(req, res) {
   //   res.sendFile(path.join(__dirname, "../client/index.html"));
   // });
@@ -20,4 +21,3 @@ module.exports = function(app) {
   // app.get("/comments", function(req, res) {
   //   res.sendFile(path.join(__dirname, "../public/comment.html"));
   // });
-};

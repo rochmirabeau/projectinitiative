@@ -10,6 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <button onClick={this.click}>Click me to see our map!</button>
+        <a href="http://localhost:3030/clickable">Maybe this link works...</a>
       </div>
     );
   }
